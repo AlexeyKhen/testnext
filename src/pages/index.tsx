@@ -35,7 +35,7 @@ const Home: NextPage = () => {
                 />
 
                 <meta property="og:type" content="website"/>
-                <meta property="fb:app_id" content="test_ted_mosby_app"/>
+                <meta property="fb:app_id" content="748180039830677"/>
                 <meta property="og:url" content={`https://testnext-lake.vercel.app/${currentLocale}`}/>
 
                 <meta
@@ -55,7 +55,8 @@ const Home: NextPage = () => {
                 <meta property="twitter:url" content="https://testnext-lake.vercel.app"/>
                 <meta name="twitter:title" content={t`Это единственный текст`}/>
                 <meta name="twitter:description" content={t`Это единственный текст`}/>
-                <meta name="twitter:image" content={`https://testnext-lake.vercel.app/${currentLocale}`}/>
+                <meta name="twitter:image"
+                      content={`https://testnext-lake.vercel.app/meta_image_${currentLocale}.jpg`}/>
 
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
