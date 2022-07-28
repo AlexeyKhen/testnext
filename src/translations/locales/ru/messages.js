@@ -1,0 +1,1 @@
+/*eslint-disable*/module.exports={messages:{"Это единственный текст":"Это единственный текст"}};
