@@ -35,8 +35,8 @@ const Home: NextPage = () => {
                 />
 
                 <meta property="og:type" content="website"/>
-                <meta property="fb:app_id" content="748180039830677"/>
-                <meta property="og:url" content={`https://testnext-lake.vercel.app/${currentLocale}`}/>
+                <meta property="fb:app_id" content="966242223397117"/>
+                <meta property="og:url" content={`https://testnext-lake.vercel.app/`}/>
 
                 <meta
                     property="og:title"
