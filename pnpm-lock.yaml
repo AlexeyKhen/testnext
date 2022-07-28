@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@babel/core': ^7.18.5
   '@lingui/cli': ^3.13.3
+  '@lingui/core': ^3.14.0
   '@lingui/loader': ^3.13.3
   '@lingui/macro': ^3.13.3
   '@lingui/react': ^3.13.3
@@ -14,6 +15,7 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
+  '@lingui/core': 3.14.0
   '@lingui/react': 3.14.0_react@18.2.0
   make-plural: 7.1.0
   next: 12.2.3_850d4ee91924e701c20cec04912e6240
@@ -24,7 +26,7 @@ devDependencies:
   '@babel/core': 7.18.9
   '@lingui/cli': 3.14.0_7e9b27ae70d32372c1061b0e97e6e30b
   '@lingui/loader': 3.14.0_7e9b27ae70d32372c1061b0e97e6e30b
-  '@lingui/macro': 3.14.0_ea458f66dbf6f47a2f0da1ded6fb208c
+  '@lingui/macro': 3.14.0_bfeb41b54382a8775f45a486deb3c5f4
   '@types/react': 18.0.15
   typescript: 4.7.4
 
@@ -402,7 +404,7 @@ packages:
       - typescript
     dev: true
 
-  /@lingui/macro/3.14.0_ea458f66dbf6f47a2f0da1ded6fb208c:
+  /@lingui/macro/3.14.0_bfeb41b54382a8775f45a486deb3c5f4:
     resolution: {integrity: sha512-NxTRrhrZ/cUO9PX/4vWys90Ku58+ExxHuE30IuDnnDldWhWlOdycmjDt9tB+yIiUdFym/veSxBs+h114FzG5mA==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -412,6 +414,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@lingui/conf': 3.14.0_typescript@4.7.4
+      '@lingui/core': 3.14.0
       '@lingui/react': 3.14.0_react@18.2.0
       ramda: 0.27.2
     transitivePeerDependencies:
