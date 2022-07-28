@@ -35,7 +35,10 @@ const Home: NextPage = () => {
                 />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content={`https://testnext-lake.vercel.app/${currentLocale}`} />
+                <meta property="og:url" content="https://testnext-lake.vercel.app/" />
+                <meta property="og:locale" content="ru_RU" />
+                <meta property="og:locale:alternate" content="en_GB" />
+                <meta property="og:locale:alternate" content="kk_KZ" />
                 <meta
                     property="og:title"
                     content={t`Это единственный текст`}
