@@ -3,7 +3,7 @@ import Head from 'next/head'
 import {loadTranslation} from "../utils";
 import {Trans} from "@lingui/macro";
 import {useCurrentLocale} from "../useCurrentLocale";
-import { t } from "@lingui/macro";
+import {t} from "@lingui/macro";
 
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
@@ -34,9 +34,9 @@ const Home: NextPage = () => {
                     content={t`Это единственный текст`}
                 />
 
-                <meta property="og:type" content="website" />
-                <meta property="fb:app_id" content="https://testnext-lake.vercel.app/" />
-                <meta property="og:url" content={`https://testnext-lake.vercel.app/${currentLocale}`} />
+                <meta property="og:type" content="website"/>
+                <meta property="fb:app_id" content="https://testnext-lake.vercel.app/"/>
+                <meta property="og:url" content={`https://testnext-lake.vercel.app/${currentLocale}`}/>
 
                 <meta
                     property="og:title"
@@ -50,6 +50,12 @@ const Home: NextPage = () => {
                     property="og:image"
                     content={`https://testnext-lake.vercel.app/meta_image_${currentLocale}.jpg`}
                 />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta property="twitter:domain" content="testnext-lake.vercel.app"/>
+                <meta property="twitter:url" content="https://testnext-lake.vercel.app"/>
+                <meta name="twitter:title" content={t`Это единственный текст`}/>
+                <meta name="twitter:description" content={t`Это единственный текст`}/>
+                <meta name="twitter:image" content={`https://testnext-lake.vercel.app/${currentLocale}`}/>
 
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
