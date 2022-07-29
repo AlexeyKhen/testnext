@@ -49,7 +49,7 @@ const Home: NextPage = () => {
                 />
                 <meta
                     property="og:image"
-                    content={`https://testnext-lake.vercel.app/meta_image_${currentLocale}.jpg`}
+                    content={`https://testnext-lake.vercel.app/img/meta_image_${currentLocale}.jpg`}
                 />
                 <meta name="twitter:card" content="summary_large_image"/>
                 <meta property="twitter:domain" content="testnext-lake.vercel.app"/>
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
                 <meta name="twitter:title" content={t`Это единственный текст`}/>
                 <meta name="twitter:description" content={t`Это единственный текст`}/>
                 <meta name="twitter:image"
-                      content={`https://testnext-lake.vercel.app/meta_image_${currentLocale}.jpg`}/>
+                      content={`https://testnext-lake.vercel.app/img/meta_image_${currentLocale}.jpg`}/>
 
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
